@@ -18,7 +18,7 @@ while True:
 
    print("AutoCountry Vehicle Finder v0.1")
    print("*******************************")
-
+# declare/assign your variables choice-num1, choice-num2, choice-num3.
    choice_num1=("1. PRINT all Authorized Vehicles") 
    
    choice_num2=("2. SEARCH for Authorized Vehicle")
@@ -29,8 +29,8 @@ while True:
   #allow the user to choose/inter a number from the menue after the menu loads.  
    user_input=input("Please Enter the following number below from the following menu:" 
  +"                                "+ "    "+
-   choice_num1 + "     " + choice_num2+ "  "+ "     "+ "       "+ choice_num3 + "  "+ "      "+ "         ")
-#assign the veriable namevehich to the user input.
+   choice_num1 + "     " + choice_num2+ "  "+ "     "+ "       "+ choice_num3 + "      "+  "             ")
+  #declare the variable nameVehich and enable the user to input the name of the vehicle.
    nameVehich=input("Please Enter the full Vehicle name:")
 
   
